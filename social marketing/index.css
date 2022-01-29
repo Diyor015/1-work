@@ -7,6 +7,7 @@
    /* font-family: 'Merriweather', serif; */
 /* font-family: 'Open Sans', sans-serif; */
 /* font-family: 'Raleway', sans-serif; */
+/*  */
 header{
     display: flex;
     justify-content: center;
@@ -15,7 +16,7 @@ header{
     background-repeat: no-repeat;
 }
 nav{
-    width: 1600px;
+    width: 1300px;
     height: 680px;
     
 }
@@ -159,3 +160,81 @@ section .text1 .p2{
     margin-bottom: 87px;
 }
 
+/*-----------------footer-------------------*/
+
+footer{
+    display: flex;
+    justify-content: center;
+    height: 380px;
+    /* margin: auto; */
+    background-color: #333333;
+    background-size: cover;
+    padding-top: 77px;
+
+}
+.footer1{
+    display: flex;
+    justify-content: space-between;
+    width: 1300px;
+}
+.footer1 .right{
+    width: 870px;
+}
+.footer1 .left{
+width: 265px;
+}
+.footer1 .right .ulli {
+    /* padding-right: 150px; */
+}
+.footer1 .right .ulli ul{
+    display: flex;
+    justify-content: space-between;
+    color: #ffff;
+}
+.right .ulli ul li{
+    margin-right: -65px;
+}
+.footer1 .right .ulli ul li a{
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    color: #d6d6d6;
+}
+
+.right .divp .email{
+    font-size: 60px;
+    margin-top: 46px;
+    font-weight: lighter;
+    color: #4c4b4b;
+}
+.line2{
+    /* margin: auto; */
+    width: 90%;
+    height: 1px;
+    background: #929292;
+    margin-top: 20px;
+}
+.right .p10{
+  font-size: 16px;
+  margin-top: 16px;
+  color: #838383;
+}
+.right .p11{
+    font-family: 'Lato', sans-serif;
+    margin-top: 58px;
+    font-size: 14px;
+    color: #5c5c5c;
+}
+.footer1 .left h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: 700; 
+    color: #fff;
+}
+.footer1 .left .p12{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    line-height: 25px;
+    margin-top: 20px;
+    margin-bottom: 32px;
+}
